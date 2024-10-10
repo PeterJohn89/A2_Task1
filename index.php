@@ -15,16 +15,16 @@ switch ($request_uri) {
     case "/":
         $page = "login.php"; 
         break;
-    case "/index":
+    case "/A2_Task1/index.php":
         $page = "login.php"; 
         break;
-    case "/login":
+    case "/A2_Task1/login.php":
         $page = "login.php";
         break;
-    case "/register":
+    case "/A2_Task1/register.php":
         $page = "register.php";
         break;
-    case "/main":
+    case "/A2_Task1/main.php":
         $page = "main.php";
         break;
     default:
