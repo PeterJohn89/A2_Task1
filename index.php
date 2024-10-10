@@ -10,6 +10,7 @@ $request_uri = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
 error_log("Requested URI: " . $request_uri);
 
 // Switch case for routing based on the URL
+var_dump($request_uri);
 switch ($request_uri) {
     case "/":
         $page = "login.php"; 
