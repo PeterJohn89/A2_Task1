@@ -1,5 +1,5 @@
 <?php
-require '../vendor/autoload.php'; 
+require dirname(__DIR__) . '/vendor/autoload.php';
 
 use Aws\S3\S3Client;
 
