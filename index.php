@@ -2,6 +2,12 @@
 // Get the requested URL path
 $request_uri = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
 
+var_dump($request_uri);
+
+error_reporting(E_ALL); 
+ini_set('display_errors', 1);
+
+
 // Switch case for routing based on the URL
 switch ($request_uri) {
     case "A2_Task1/":
