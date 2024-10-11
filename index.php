@@ -4,19 +4,19 @@ $request_uri = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
 
 // Switch case for routing based on the URL
 switch ($request_uri) {
-    case "/":
+    case "A2_Task1/":
         $page = "login.php"; 
         break;
-    case "/index":
+    case "A2_Task1/index":
         $page = "login.php"; 
         break;
-    case "/login":
+    case "A2_Task1/login":
         $page = "login.php";
         break;
-    case "/register":
+    case "A2_Task1/register":
         $page = "register.php";
         break;
-    case "/main":
+    case "A2_Task1/main":
         $page = "main.php";
         break;
     default:
