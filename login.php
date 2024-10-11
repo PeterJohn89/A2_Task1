@@ -1,5 +1,10 @@
 <?php
 session_start(); // Start the session
+
+error_reporting(E_ALL); 
+ini_set('display_errors', 1);
+
+
 include("./config/DynamicDB.php");
 
 $error_message = "";  // Initialize an empty error message
