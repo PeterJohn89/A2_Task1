@@ -10,19 +10,19 @@ ini_set('display_errors', 1);
 
 // Switch case for routing based on the URL
 switch ($request_uri) {
-    case "A2_Task1/":
+    case "/A2_Task1":
         $page = "login.php"; 
         break;
-    case "A2_Task1/index":
+    case "/A2_Task1/index":
         $page = "login.php"; 
         break;
-    case "A2_Task1/login":
+    case "/A2_Task1/login":
         $page = "login.php";
         break;
-    case "A2_Task1/register":
+    case "/A2_Task1/register":
         $page = "register.php";
         break;
-    case "A2_Task1/main":
+    case "/A2_Task1/main":
         $page = "main.php";
         break;
     default:
