@@ -29,9 +29,9 @@
     <a href="index.php" class="text-2xl font-bold">MusicHub</a>
     <nav>
       <ul class="flex space-x-4">
-        <li><a href="index" class="hover:text-gray-400">Home</a></li>
-        <li><a href="login" class="hover:text-gray-400">Login</a></li>
-        <li><a href="register" class="hover:text-gray-400">Register</a></li>
+        <li><a href="/A2_Task1/index.php" class="hover:text-gray-400">Home</a></li>
+        <li><a href="/A2_Task1/login.php" class="hover:text-gray-400">Login</a></li>
+        <li><a href="/A2_Task1/register.php" class="hover:text-gray-400">Register</a></li>
       </ul>
     </nav>
   </div>
