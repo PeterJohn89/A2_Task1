@@ -9,12 +9,9 @@ use Aws\Exception\AwsException;
 
 $dynamoDb = new DynamoDbClient([
     'region' => 'us-east-1', 
-    'version' => 'latest',
-    'credentials' => [
-        'key'    => 'ASIAUFX577SEWO4ECWKD',
-        'secret' => 'QYcM4fQQ8eU7xfTvR4rx9DrOdkMt4V1/34ux/mjd',
-    ],
+    'version' => 'latest'
 ]);
+
 
 function getSubscriptionTitles($username) {
     global $dynamoDb;
